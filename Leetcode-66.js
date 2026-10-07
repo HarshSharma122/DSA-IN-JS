@@ -16,7 +16,6 @@ var plusOne = function (digits) {
   arr.push(...digits);
 
 
-
   return arr;
 };
 
