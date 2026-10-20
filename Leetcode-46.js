@@ -1,3 +1,19 @@
+/*
+we have 3 steps 
+
+
+**** first one is to find the pivot but in this we travse the array from backward when arr[i] > arr[i-1] store the povot and break the loop
+
+****second step is to search the element from the pivot +1 array from back use the loop to find the just great number from the pivot and then reverse the pivot and that number 
+****third step is to reverse all elements from pivot +1 and n-1 
+
+
+***** you get the ans 
+
+
+*/
+
+
 var permute = function (nums) {
   let n = nums.length;
   let pivot = -1;
