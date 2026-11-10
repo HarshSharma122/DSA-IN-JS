@@ -1,4 +1,4 @@
-// Brute force approach
+
 const merge_using_bruteForce = (nums1, m, nums2, n) => {
   nums1.length = m;
 
