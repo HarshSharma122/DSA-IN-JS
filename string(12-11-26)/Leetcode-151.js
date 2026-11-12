@@ -8,10 +8,6 @@ sc---O(1)
 var reverseWords = function (s) {
     let coverttoarr = s.split(" ");
 
-
-    console.log(coverttoarr);
-    
-
     let arr = [];
 
 
@@ -42,6 +38,10 @@ const s = " hello world ";
 console.log(reverseWords(s));
 
 // join kya krta h join array ke string element ki aapase m add krke ek string bnata h bs yhi krt abs we join seperator in this so that we seperaye the string
+
+
+// simple si understanding hoti h ------------------- mtlb agr string to array m convert krna h toh split() method use krlo 
+// agr array to string m convert krna h toh join() method use krna h 
 
 
 
