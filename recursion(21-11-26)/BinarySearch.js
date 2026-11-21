@@ -1,3 +1,13 @@
+/*
+
+tc-O(log n)
+
+sc- O(log n)
+
+
+*/
+
+
 var search = function (nums, target) {
     let s = 0;
     let e = nums.length-1;
