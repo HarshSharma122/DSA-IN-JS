@@ -13,7 +13,6 @@ var reversePairs = function(nums) {
     }
 
     return count;
-    
 
 };
 // const nums = [1,3,2,3,1]
